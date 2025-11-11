@@ -35,4 +35,5 @@ def predict_home_price():
 
 if __name__ == '__main__':
     util.load_saved_artifacts()
-    app.run(debug=True)
+
+    app.run()
